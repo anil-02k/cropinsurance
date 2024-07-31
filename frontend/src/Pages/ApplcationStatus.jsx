@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Document = () => {
+const ApplcationStatus = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Document = () => {
   )
 }
 
-export default Document
+export default ApplcationStatus

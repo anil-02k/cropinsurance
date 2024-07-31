@@ -5,9 +5,10 @@
 }
 
 html,body{
-  background: rgb(2,0,36);
-  height: 100%;
+  /* background: rgb(2,0,36); */
+  /* height: 100%; */
   width: 100%;
-  background: linear-gradient(183deg, #D5F3D2 30%, #EFF0F3 100%);
+  /* background: linear-gradient(183deg, #D5F3D2 30%, #EFF0F3 100%, #D5F3D2 30%); */
+  background:#D5F3D2;
 }
 

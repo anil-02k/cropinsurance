@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import one from '../Assets/6.png';
 import two from '../Assets/2.png';
 import three from '../Assets/3.png';
@@ -11,7 +12,8 @@ const Cards = () => {
     <div>
       <div className="right-scroller">
           <div className="wrapper">
-            <div className="card">
+          <Link to='/farmer' style={{color:'black'}}>
+          <div className="card">
               <div className="card_image card_image_background">
                 <img
                   src={one}
@@ -25,9 +27,11 @@ const Cards = () => {
                 </p>
               </div>
             </div>
+          </Link>
           </div>
           <div className="wrapper">
-            <div className="card">
+          <Link to='/premiumcalculator' style={{color:'black'}}>
+          <div className="card">
               <div className="card_image card_image_background">
                 <img
                   src={two}
@@ -40,9 +44,11 @@ const Cards = () => {
                 </p>
               </div>
             </div>
+              </Link>
           </div>
           <div className="wrapper">
-            <div className="card">
+          <Link to='/report' style={{color:'black'}}>
+          <div className="card">
               <div className="card_image card_image_background">
                 <img
                   src={three}
@@ -55,9 +61,11 @@ const Cards = () => {
                 </p>
               </div>
             </div>
+          </Link>
           </div>
           <div className="wrapper">
-            <div className="card">
+          <Link to='/status' style={{color:'black'}}>
+          <div className="card">
               <div className="card_image card_image_background">
                 <img
                    src={four}
@@ -70,9 +78,11 @@ const Cards = () => {
                 </p>
               </div>
             </div>
+          </Link>
           </div>
           <div className="wrapper">
-            <div className="card">
+          <Link to='/weather' style={{color:'black'}}>
+          <div className="card">
               <div className="card_image card_image_background">
                 <img
                    src={five}
@@ -85,6 +95,7 @@ const Cards = () => {
                 </p>
               </div>
             </div>
+          </Link>
           </div>
         
       </div>

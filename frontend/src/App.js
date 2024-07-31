@@ -9,7 +9,10 @@ import Report from './Pages/Report'
 import Gallery from './Pages/Gallery'
 import AboutUs from './Pages/AboutUs'
 import Footer from './Components/Footer/Footer'
-
+import Calculator from './Components/Calculator/Calculator'
+import Farmer from './Pages/Farmer'
+import Status from './Pages/ApplcationStatus'
+import Weather from './Pages/Weather'
 const App = () => {
   return (
     <div>
@@ -22,7 +25,12 @@ const App = () => {
         <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/aboutus' element={<AboutUs/>}/>
         <Route path='/login' element={<LoginSignUp/>}/>
-      
+        <Route path='/premiumcalculator' element={<Calculator/>}/>
+        <Route path='/farmer' element={<Farmer/>}/>
+        <Route path='/report' element={<Report/>}/>
+        <Route path='/status' element={<Status/>}/>
+        <Route path='/weather' element={<Weather/>}/>
+        
       </Routes>
       <Footer />
 
