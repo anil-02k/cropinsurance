@@ -8,6 +8,7 @@ import Document from './Pages/Document'
 import Report from './Pages/Report'
 import Gallery from './Pages/Gallery'
 import AboutUs from './Pages/AboutUs'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -23,7 +24,7 @@ const App = () => {
         <Route path='/login' element={<LoginSignUp/>}/>
       
       </Routes>
-      
+      <Footer />
 
       </BrowserRouter>
 

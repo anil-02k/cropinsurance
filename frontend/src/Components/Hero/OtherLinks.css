@@ -1,0 +1,45 @@
+/* OtherLinks.css */
+.heading {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 70px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 100px;
+  }
+  
+  .cardcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .ecard {
+    height: 250px;
+    width: 200px;
+    background-color: #8cb293;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 15px;
+  }
+  
+  .ecard:hover {
+    transform: scale(1.2);
+  }
+  .cart,.sellbtn,.tuts,.thunder{
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.buy,.sell,.Tutorial,.whether{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;     
+    font-family: "Montserrat", sans-serif;
+}
+
+.sell{
+    font-size: 17px;
+}
+  
