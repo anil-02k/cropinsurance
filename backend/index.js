@@ -7,6 +7,8 @@ const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
 const { type } = require("os");
+const apiKey=process.env.OPEN_WEATHER_API_KEY;
+
 
 
 app.use(express.json());
