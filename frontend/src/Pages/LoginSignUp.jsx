@@ -16,7 +16,7 @@ const changeHandler=(e)=>{
   const login=async()=>{
     console.log("Login function Executed",formData);
     let responseData;
-    await fetch('https://cropinsurance-backend.onrender.com',{
+    await fetch('https://cropinsurance-backend.onrender.com/login',{
       method:'POST',
       headers:{
         Accept:"application/form/data",
@@ -36,7 +36,7 @@ const changeHandler=(e)=>{
   const signup=async()=>{
     console.log("Signup function Executed",formData);
     let responseData;
-    await fetch('http://localhost:4000/signup',{
+    await fetch('https://cropinsurance-backend.onrender.com/signup',{
       method:'POST',
       headers:{
         Accept:"application/form/data",
