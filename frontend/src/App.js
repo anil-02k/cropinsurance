@@ -11,8 +11,9 @@ import AboutUs from './Pages/AboutUs'
 import Footer from './Components/Footer/Footer'
 import Calculator from './Components/Calculator/Calculator'
 import Farmer from './Pages/Farmer'
-import Status from './Pages/ApplcationStatus'
+import Status from './Pages/Status'
 import Weather from './Pages/Weather'
+import Upcoming from './Pages/Upcoming'
 const App = () => {
   return (
     <div>
@@ -30,6 +31,7 @@ const App = () => {
         <Route path='/report' element={<Report/>}/>
         <Route path='/status' element={<Status/>}/>
         <Route path='/weather' element={<Weather/>}/>
+        <Route path='/upcoming' element={<Upcoming/>}/>
         
       </Routes>
       <Footer />

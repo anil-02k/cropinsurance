@@ -24,7 +24,7 @@ const Navbar = () => {
           <li>
             <Link
               style={{ textDecoration: "none", color: "black" }}
-              to="/document"
+              to="/documents"
             >
               Documents
               <i
@@ -80,7 +80,7 @@ const Navbar = () => {
 
           {localStorage.getItem('auth-token')
           ?<button className="btn-style" onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/')}}>Logout</button>: <Link
-            style={{ textDecoration: "none", color: "#03A601" }}
+            style={{ textDecoration: "none", color: "green" }}
             to="/login"
           >
             <button className="btn-style">Sign in</button>

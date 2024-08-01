@@ -100,21 +100,21 @@ const InteractiveMap = () => {
   };
 
   return (
-    <div>
+    <div className='map-main-container'>
       <h1>Click on the map to get weather information</h1>
       <div id="container">
         <div id="map-container">
-          <div id="map" style={{ width: '100%', height: '80vh' }}></div>
+          <div id="map" style={{ width: '100%', height: '75vh' }}></div>
         </div>
         <div id="weather-container">
           <div id="weather-info">
             <h2>Weather Information</h2>
-            <p id="coordinates">Coordinates: {coordinates.lat.toFixed(2)}, {coordinates.lng.toFixed(2)}</p>
+            <p id="location">{locationInfo.location}</p>
             <p id="temperature">{weatherInfo.temperature}</p>
             <p id="humidity">{weatherInfo.humidity}</p>
             <p id="wind">{weatherInfo.wind}</p>
             <p id="condition">{weatherInfo.condition}</p>
-            <p id="location">{locationInfo.location}</p>
+            <p id="coordinates">Coordinates: {coordinates.lat.toFixed(2)}, {coordinates.lng.toFixed(2)}</p>
           </div>
         </div>
       </div>

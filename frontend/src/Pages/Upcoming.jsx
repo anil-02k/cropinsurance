@@ -1,6 +1,5 @@
 import React from 'react';
-import './CSS/Gallery.css'
-const Gallery = () => {
+const Upcoming = () => {
   return (
     <div className="coming-soon-container">
       <h1>Coming Soon</h1>
@@ -9,4 +8,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default Upcoming;
